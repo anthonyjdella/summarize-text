@@ -1,0 +1,5 @@
+.env
+summarize-*
+summarize-text-360603-8c5002a405d6.json
+__*
+__pycache__
