@@ -20,7 +20,7 @@ def incoming_sms():
         summary = summarize_prompt(pic_url)
         return respond(f"{summary}")
     else:
-        return respond(f"Please send a picture containing text!")
+        return respond("Please send a picture containing text!")
 
 
 if __name__ == "__main__":
