@@ -1,16 +1,11 @@
 from flask import Flask, request
-from twilio.twiml.messaging_response import MessagingResponse
+# Import MessagingResponse class
 from summarize import summarize_prompt
 
 
 app = Flask(__name__)
 
-
-def respond(message):
-    response = MessagingResponse()
-    response.message(message)
-    return str(response)
-
+# Create respond()
 
 @app.route("/summary", methods=['GET', 'POST'])
 def incoming_sms():
