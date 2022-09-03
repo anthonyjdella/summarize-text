@@ -22,10 +22,8 @@ def generate_prompt(url):
 
 def summarize_prompt(url):
     response = openai.Completion.create(
-        model="text-davinci-002",
-        prompt=generate_prompt(url),
-        temperature=0.8,
-        max_tokens=100,
+        #model, prompt, temperature, max_tokens
+        
         top_p=1.0,
         frequency_penalty=0.0,
         presence_penalty=0.0
