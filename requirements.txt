@@ -51,5 +51,5 @@ uritemplate==4.1.1
 urllib3==1.26.7
 virtualenv==20.16.3
 vonage==2.5.5
-Werkzeug==2.0.2
+Werkzeug==2.2.3
 wrapt==1.13.3
